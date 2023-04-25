@@ -87,7 +87,7 @@ function PostCreateForm() {
               {image ? (
                 <>
                   <figure>
-                    <Image className={appStyles.image} src={image} rounded />
+                    <Image className={appStyles.Image} src={image} rounded />
                   </figure>
 
                   <div>
